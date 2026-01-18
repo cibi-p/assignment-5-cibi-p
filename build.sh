@@ -1,4 +1,6 @@
 #!/bin/bash
+export FORCE_UNSAFE_CONFIGURE=1
+set -e
 #Script to build buildroot configuration
 #Author: Siddhant Jajoo
 
