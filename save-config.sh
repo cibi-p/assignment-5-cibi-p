@@ -1,4 +1,6 @@
 #!/bin/bash
+export FORCE_UNSAFE_CONFIGURE=1
+set -e
 #Script to save the modified configuration as modified_qemu_aarch64_virt_defconfig and linux kernel configuration.
 #Author: Siddhant Jajoo.
 
